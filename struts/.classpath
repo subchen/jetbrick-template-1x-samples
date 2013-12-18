@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/jetty-all-8.1.9.v20130131.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-3.0.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/antlr-runtime-4.1.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/jetbrick-template-1.1.2.jar" sourcepath="/jetbrick-template"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/logback-classic-1.0.11.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/logback-core-1.0.11.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/commons-fileupload-1.3.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/freemarker-2.3.19.jar"/>
+	<classpathentry kind="lib" path="lib/jsp/com.sun.el-2.2.0.v201108011116.jar"/>
+	<classpathentry kind="lib" path="lib/jsp/javax.el-2.2.0.v201108011116.jar"/>
+	<classpathentry kind="lib" path="lib/jsp/javax.servlet.jsp-2.2.0.v201112011158.jar"/>
+	<classpathentry kind="lib" path="lib/jsp/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar"/>
+	<classpathentry kind="lib" path="lib/jsp/org.apache.jasper.glassfish-2.2.2.v201112011158.jar"/>
+	<classpathentry kind="lib" path="lib/jsp/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar"/>
+	<classpathentry kind="lib" path="lib/jsp/org.eclipse.jdt.core-3.7.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/ognl-3.0.6.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/struts2-core-2.3.16.jar"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/xwork-core-2.3.16.jar"/>
+	<classpathentry kind="output" path="webapps/WEB-INF/classes"/>
+</classpath>

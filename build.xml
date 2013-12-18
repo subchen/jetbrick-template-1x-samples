@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project default="dist" basedir=".">
+    <property file="${basedir}/build.properties" />
+
+    <target name="dist">
+        <ant antfile="${basedir}/servlet/build.xml" dir="${basedir}/servlet" />
+        <ant antfile="${basedir}/jfinal/build.xml" dir="${basedir}/jfinal" />
+        <ant antfile="${basedir}/springmvc/build.xml" dir="${basedir}/springmvc" />
+        <ant antfile="${basedir}/struts/build.xml" dir="${basedir}/struts" />
+        <ant antfile="${basedir}/jodd/build.xml" dir="${basedir}/jodd" />
+        <!--
+        <ant antfile="${basedir}/nutz/build.xml" dir="${basedir}/nutz" />
+    	-->
+    </target>
+
+</project>
