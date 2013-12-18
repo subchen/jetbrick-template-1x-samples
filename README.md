@@ -25,15 +25,15 @@ http://subchen.github.io/jetbrick-template/
 
     ```
     git clone https://github.com/subchen/jetbrick-template-webmvc-samples.git
-    cd jetbrick-template-webmvc-samples/<project>
+    cd jetbrick-template-webmvc-samples
     ant dist
     ```
 
-4. 编译后的文件存放在工程根目录中
+4. 编译后的文件存放在每个 project 的目录中
 
     ```
-    jetbrick-template-x.x.x.war
-    jetbrick-template-x.x.x.zip
+    jetx-samples-<project>.war
+    jetx-samples-<project>.zip
     ```
 
 
@@ -80,3 +80,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
