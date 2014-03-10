@@ -2,7 +2,7 @@
  * jetbrick-template
  * http://subchen.github.io/jetbrick-template/
  *
- * Copyright 2010-2013 Guoqiang Chen. All rights reserved.
+ * Copyright 2010-2014 Guoqiang Chen. All rights reserved.
  * Email: subchen@gmail.com
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,12 +21,12 @@ package jetbrick.template.samples.extension;
 
 import java.util.ArrayList;
 import java.util.List;
-import jetbrick.template.JetAnnoations;
+import jetbrick.template.JetAnnotations;
 import jetbrick.template.samples.dao.DaoUtils;
 import jetbrick.template.samples.model.BookInfo;
 import jetbrick.template.samples.model.UserInfo;
 
-@JetAnnoations.Methods
+@JetAnnotations.Methods
 public class Methods {
 
     public static List<BookInfo> getBooks(UserInfo user) {

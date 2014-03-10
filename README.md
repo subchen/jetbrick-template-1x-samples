@@ -7,7 +7,7 @@ http://subchen.github.io/jetbrick-template/
 编译方法
 ===================
 
-1. 先安装 apache-ant 1.8.x
+1. 先安装 apache-ant 1.9.x
 
     ```
     wget http://mirrors.cnnic.cn/apache//ant/binaries/apache-ant-1.9.2-bin.zip
@@ -17,7 +17,7 @@ http://subchen.github.io/jetbrick-template/
 
     ```
     set JAVA_HOME=/path/jdk_1.6.x
-    set ANT_HOME=/path/apache-ant_1.8.x
+    set ANT_HOME=/path/apache-ant-1.9.x
     set PATH=%JAVA_HOME%/bin;%ANT_HOME%/bin;%PATH%
     ```
 
@@ -66,7 +66,7 @@ http://subchen.github.io/jetbrick-template/
 jetbrick-template
 http://subchen.github.io/jetbrick-template/
 
-Copyright 2010-2013 Guoqiang Chen. All rights reserved.
+Copyright 2010-2014 Guoqiang Chen. All rights reserved.
 Email: subchen@gmail.com
 
 Licensed under the Apache License, Version 2.0 (the "License");
