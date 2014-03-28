@@ -4,11 +4,11 @@
 	<classpathentry kind="lib" path="lib/jetty-all-8.1.9.v20130131.jar"/>
 	<classpathentry kind="lib" path="lib/servlet-api-3.0.jar"/>
 	<classpathentry kind="lib" path="webapps/WEB-INF/lib/antlr-runtime-4.1.jar"/>
-	<classpathentry kind="lib" path="webapps/WEB-INF/lib/jetbrick-template-1.2.3.jar" />
-	<classpathentry kind="lib" path="webapps/WEB-INF/lib/jodd-3.4.9.jar"/>
 	<classpathentry kind="lib" path="webapps/WEB-INF/lib/logback-classic-1.0.11.jar"/>
 	<classpathentry kind="lib" path="webapps/WEB-INF/lib/logback-core-1.0.11.jar"/>
 	<classpathentry kind="lib" path="webapps/WEB-INF/lib/slf4j-api-1.7.5.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/jetbrick-template-1.2.5.jar" sourcepath="/jetbrick-template"/>
+	<classpathentry kind="lib" path="webapps/WEB-INF/lib/jodd-3.5.1.jar"/>
 	<classpathentry kind="output" path="webapps/WEB-INF/classes"/>
 </classpath>

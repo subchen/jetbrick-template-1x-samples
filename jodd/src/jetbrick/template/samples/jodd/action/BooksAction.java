@@ -35,6 +35,6 @@ public class BooksAction {
     @Action(extension = Action.NONE)
     public Object view() {
         authorUser = DaoUtils.getUser(author);
-        return "jetx:/books.jetx";
+        return "jetx:/books";
     }
 }
